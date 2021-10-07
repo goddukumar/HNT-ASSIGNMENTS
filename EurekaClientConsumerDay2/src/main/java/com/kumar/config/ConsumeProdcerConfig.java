@@ -9,6 +9,7 @@ import org.springframework.web.client.RestTemplate;
 @Configuration
 public class ConsumeProdcerConfig {
 
+	//get the dynamic URL
 	@Value("${external.api.producer}")
 	private String producerService;
 
